@@ -51,6 +51,7 @@ const Hero = () => {
               </div>
               <div className="ml-4 mb-2">
                 <span className="syntax-string">skills</span>: [
+                  <span className="syntax-string">"FastApi"</span>, 
                 <span className="syntax-string">"React"</span>, 
                 <span className="syntax-string">"Next.js"</span>, 
                 <span className="syntax-string">"TypeScript"</span>]

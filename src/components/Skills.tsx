@@ -131,6 +131,7 @@ const Skills = () => {
               </div>
               <div className="ml-4 mb-2">
                 <span className="syntax-string">frontend</span>: [
+                <span className="syntax-string">'Tailwind CSS'</span>, 
                 <span className="syntax-string">'React'</span>, 
                 <span className="syntax-string">'Next.js'</span>, 
                 <span className="syntax-string">'TypeScript'</span>],
@@ -139,6 +140,7 @@ const Skills = () => {
                 <span className="syntax-string">backend</span>: [
                 <span className="syntax-string">'Node.js'</span>, 
                 <span className="syntax-string">'Python'</span>, 
+                <span className="syntax-string">'FastApi'</span>, 
                 <span className="syntax-string">'PostgreSQL'</span>],
               </div>
               <div className="ml-4 mb-2">
