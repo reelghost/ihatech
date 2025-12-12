@@ -83,13 +83,26 @@ const Projects = () => {
                     </div>
                     <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                       <div className="flex space-x-4">
-                        <Button size="sm" variant="secondary">
-                          <Github className="h-4 w-4 mr-2" />
-                          Code
+                        <Button 
+                          asChild 
+                          size="sm" 
+                          variant="secondary"
+                          onClick={(e) => e.stopPropagation()}
+                        >
+                          <a href={project.github} target="_blank" rel="noopener noreferrer">
+                            <Github className="h-4 w-4 mr-2" />
+                            Code
+                          </a>
                         </Button>
-                        <Button size="sm">
-                          <ExternalLink className="h-4 w-4 mr-2" />
-                          Live Demo
+                        <Button 
+                          asChild 
+                          size="sm"
+                          onClick={(e) => e.stopPropagation()}
+                        >
+                          <a href={project.live} target="_blank" rel="noopener noreferrer">
+                            <ExternalLink className="h-4 w-4 mr-2" />
+                            Live Demo
+                          </a>
                         </Button>
                       </div>
                     </div>
@@ -125,13 +138,27 @@ const Projects = () => {
                   </div>
 
                   <div className="flex space-x-4">
-                    <Button variant="outline" size="sm">
-                      <Github className="h-4 w-4 mr-2" />
-                      Code
+                    <Button 
+                      asChild 
+                      variant="outline" 
+                      size="sm"
+                      onClick={(e) => e.stopPropagation()}
+                    >
+                      <a href={project.github} target="_blank" rel="noopener noreferrer">
+                        <Github className="h-4 w-4 mr-2" />
+                        Code
+                      </a>
                     </Button>
-                    <Button size="sm" className="glow-primary">
-                      <ExternalLink className="h-4 w-4 mr-2" />
-                      Live Demo
+                    <Button 
+                      asChild 
+                      size="sm" 
+                      className="glow-primary"
+                      onClick={(e) => e.stopPropagation()}
+                    >
+                      <a href={project.live} target="_blank" rel="noopener noreferrer">
+                        <ExternalLink className="h-4 w-4 mr-2" />
+                        Live Demo
+                      </a>
                     </Button>
                   </div>
                 </div>

@@ -1,5 +1,4 @@
 import { Heart, Code, Lock } from 'lucide-react';
-import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -44,13 +43,15 @@ const Footer = () => {
               <span>and</span>
               <Code className="h-4 w-4 text-primary" />
             </div>
-            <Link 
-              to="/privacy-policy" 
+            <a 
+              href="/privacy-policy.html" 
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
               <Lock className="h-3 w-3 mr-1" />
               Privacy Policy
-            </Link>
+            </a>
           </div>
         </div>
       </div>
