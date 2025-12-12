@@ -1,4 +1,5 @@
-import { Heart, Code } from 'lucide-react';
+import { Heart, Code, Lock } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -36,11 +37,20 @@ const Footer = () => {
         </div>
         
         <div className="text-center mt-6 text-muted-foreground">
-          <div className="flex items-center justify-center space-x-2">
-            <span>© {currentYear} Iha Thoya. Made with</span>
-            <Heart className="h-4 w-4 text-red-500 animate-pulse" />
-            <span>and</span>
-            <Code className="h-4 w-4 text-primary" />
+          <div className="flex flex-col items-center space-y-2">
+            <div className="flex items-center space-x-2">
+              <span>© {currentYear} Iha Thoya. Made with</span>
+              <Heart className="h-4 w-4 text-red-500 animate-pulse" />
+              <span>and</span>
+              <Code className="h-4 w-4 text-primary" />
+            </div>
+            <Link 
+              to="/privacy-policy" 
+              className="flex items-center text-sm text-muted-foreground hover:text-foreground transition-colors"
+            >
+              <Lock className="h-3 w-3 mr-1" />
+              Privacy Policy
+            </Link>
           </div>
         </div>
       </div>

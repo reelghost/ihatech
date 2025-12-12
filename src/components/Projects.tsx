@@ -6,12 +6,12 @@ import { Github, ExternalLink, Code } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce solution built with Next.js and Stripe integration. Features include user authentication, product management, cart functionality, and payment processing.',
+      title: 'Abiri Bus Booking Web App',
+      description: 'A web app that brings together all the bus booking features in one place - search, compare, and book buses seamlessly.',
       image: '/api/placeholder/600/400',
-      tech: ['Next.js', 'TypeScript', 'Stripe', 'PostgreSQL', 'Tailwind CSS'],
-      github: 'https://github.com',
-      live: 'https://example.com',
+      tech: ['ReactJS', 'TypeScript', 'Tailwind CSS', 'Vercel', 'NodeJS'],
+      github: 'https://github.com/reelghost',
+      live: 'https://abiri.vercel.app',
       featured: true,
     },
     {
