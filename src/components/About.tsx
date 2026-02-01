@@ -20,16 +20,14 @@ const About = () => {
             </h2>
             <div className="space-y-4 text-lg text-muted-foreground">
               <p>
-                Hello! I'm Iha Thoya, a passionate full-stack developer who loves 
-                building exceptional digital experiences. My journey into web 
-                development started back in 2021 when I decided to create my 
-                first website.
+                Hello! We are Iha Crafts, passionate full-stack developers and graphic designers who love 
+                building exceptional digital experiences. Our journey started back in 2021 when we decided to bring change to the digital world.
               </p>
               <p>
-                Fast-forward to today, and I've had the privilege of working on 
-                various projects ranging from startups to large-scale applications. 
-                I specialize in building modern, performant web applications using 
-                cutting-edge technologies.
+                Fast-forward to today, and We've had the privilege of working on 
+                various projects ranging from startups to large-scale businesses. 
+                We specialize in building modern, performant web applications using 
+                cutting-edge technologies and not forgetting the taste we have in branding businesses with every kind of graphics design material they will ever need.
               </p>
               <p>
                 Here are a few technologies I've been working with recently:
@@ -70,7 +68,7 @@ const About = () => {
                   <span className="syntax-function">Developer</span> {'{'}
                 </div>
                 <div className="ml-4 mb-1">
-                  <span className="syntax-string">name</span>: <span className="syntax-string">"Iha Thoya"</span>;
+                  <span className="syntax-string">name</span>: <span className="syntax-string">"Iha Crafts"</span>;
                 </div>
                 <div className="ml-4 mb-1">
                   <span className="syntax-string">email</span>: <span className="syntax-string">"thoya.joseep@gmail.com"</span>;
