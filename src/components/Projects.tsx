@@ -9,7 +9,7 @@ const Projects = () => {
     {
       title: 'Abiri Bus Booking Web App',
       description: 'A web app that brings together all the bus booking features in one place - search, compare, and book buses seamlessly.',
-      image: abirImg,
+      image: abiriImg,
       tech: ['ReactJS', 'TypeScript', 'Tailwind CSS', 'Vercel', 'NodeJS'],
       github: 'https://github.com/reelghost',
       live: 'https://abiri.ihacrafts.com',
