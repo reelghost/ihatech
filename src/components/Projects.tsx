@@ -18,7 +18,7 @@ const Projects = () => {
     {
       title: 'Task Management App',
       description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
-      image: '/api/placeholder/600/400',
+      image: 'https://picsum.photos/seed/abiri/600/400',
       tech: ['React', 'Node.js', 'Socket.io', 'MongoDB', 'Express'],
       github: 'https://github.com/reelghost',
       live: 'https://example.com',
@@ -27,7 +27,7 @@ const Projects = () => {
     {
       title: 'Weather Dashboard',
       description: 'A responsive weather dashboard that displays current weather, forecasts, and weather maps using various weather APIs.',
-      image: '/api/placeholder/600/400',
+      image: 'https://picsum.photos/seed/abiri/600/400',
       tech: ['Vue.js', 'JavaScript', 'Weather API', 'Chart.js'],
       github: 'https://github.com/reelghost',
       live: 'https://example.com',
@@ -36,7 +36,7 @@ const Projects = () => {
     {
       title: 'Portfolio Website',
       description: 'A personal portfolio website showcasing projects and skills with smooth animations and responsive design.',
-      image: '/api/placeholder/600/400',
+      image: 'https://picsum.photos/seed/abiri/600/400',
       tech: ['React', 'Framer Motion', 'Tailwind CSS', 'Vite'],
       github: 'https://github.com/reelghost',
       live: 'https://example.com',
@@ -80,12 +80,7 @@ const Projects = () => {
                   </div>
                   <div className="relative bg-card">
                     <div className="aspect-video relative overflow-hidden bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center">
-                       <img
-    src={project.image}
-    alt={project.title}
-    className="w-full h-full object-cover"
-  />
-                      <Code className="h-16 w-16 text-muted-foreground" />
+                       <img src={project.image} alt={project.title} className="w-full h-full object-cover"/>
                     </div>
                     <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                       <div className="flex space-x-4">
