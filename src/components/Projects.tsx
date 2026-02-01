@@ -2,13 +2,14 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Github, ExternalLink, Code } from 'lucide-react';
+import abiriImg from '../assets/abiri.png';
 
 const Projects = () => {
   const projects = [
     {
       title: 'Abiri Bus Booking Web App',
       description: 'A web app that brings together all the bus booking features in one place - search, compare, and book buses seamlessly.',
-      image: '/api/placeholder/600/400',
+      image: abirImg,
       tech: ['ReactJS', 'TypeScript', 'Tailwind CSS', 'Vercel', 'NodeJS'],
       github: 'https://github.com/reelghost',
       live: 'https://abiri.ihacrafts.com',
