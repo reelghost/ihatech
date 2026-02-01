@@ -79,7 +79,12 @@ const Projects = () => {
                     <span className="text-sm text-muted-foreground ml-4">{project.title.toLowerCase().replace(/\s+/g, '-')}.app</span>
                   </div>
                   <div className="relative bg-card">
-                    <div className="aspect-video bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center">
+                    <div className="aspect-video relative overflow-hidden bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center">
+                       <img
+    src={project.image}
+    alt={project.title}
+    className="w-full h-full object-cover"
+  />
                       <Code className="h-16 w-16 text-muted-foreground" />
                     </div>
                     <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
