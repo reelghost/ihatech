@@ -42,7 +42,7 @@ const Hero = () => {
               </div>
               <div className="ml-4 mb-2">
                 <span className="syntax-string">name</span>: 
-                <span className="syntax-string">"Iha Thoya"</span>,
+                <span className="syntax-string">"Iha Crafts"</span>,
               </div>
               <div className="ml-4 mb-2">
                 <span className="syntax-string">role</span>: 
@@ -62,7 +62,7 @@ const Hero = () => {
 
           {/* Main Content */}
           <h1 className="text-5xl md:text-7xl font-bold font-mono mb-6">
-            <span className="gradient-text">Iha Thoya</span>
+            <span className="gradient-text">Iha Crafts</span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
             Crafting digital experiences with clean code and innovative solutions
